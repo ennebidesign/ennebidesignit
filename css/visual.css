@@ -1,0 +1,204 @@
+/********************/
+#content-left { background-color: #ff6699; } 
+
+/*************left_content control*******************/
+
+#button_s a.prev {  
+ float: left;
+ display: inline;
+ width: 20px;
+ height: 30px;
+ background-image: url('../images/arrow_03.png');
+ background-repeat: no-repeat;
+ background-position: top;
+ margin-left: 10px;
+}
+#button_s .current.prev{  
+ float: left;
+ display: inline;
+ width: 20px;
+ height: 30px;
+ background-image: url('../images/arrow_03.png');
+ background-repeat: no-repeat;
+ background-position: bottom;
+ margin-left: 10px;
+}
+#button_s a.next {  
+ float: left;
+ display: inline;
+ width: 20px;
+ height: 30px;
+ background-image: url('../images/arrow_left_03.png');
+ background-repeat: no-repeat;
+ background-position: top;
+ margin-left: 10px;
+}
+#button_s .current.next {  
+ float: left;
+ display: inline;
+ width: 20px;
+ height: 30px;
+ background-image: url('../images/arrow_left_03.png');
+ background-repeat: no-repeat;
+ background-position: bottom;
+ margin-left: 10px;
+ background-color: ;
+}
+
+ 
+  /******************/
+ 
+		
+	
+	#navright ul li:hover>div {
+    visibility: visible;
+		
+}
+#navleft ul li:hover>div {
+    visibility: visible;
+		
+}
+#hoverdiv { 
+	background-color: #0099cc; 
+	padding: 0;
+	opacity: 0.6;
+	}
+	#hoverdivfour {
+	 background-color: #660099; 
+	padding: 0;
+	opacity: 0.6;
+	 }
+	 #hoverdivthree { 
+	 background-color: #ff3333;
+	 padding: 0;
+	 z-index: -5;
+	  }
+	#hoverdivone {  
+	background-color: #ff9900;
+	padding: 0;
+	opacity: 0.6;
+	}	
+	#hoverdivtwo {  
+	background-color: #ff6600;
+	padding: 0;
+	opacity: 0.6;
+	}	
+	#hoverdiv,
+	#hoverdivfour,
+	#hoverdivone,
+	#hoverdivtwo {  
+	cursor: pointer;
+	display: block;
+	width: auto;
+	height: 100px;
+	position: absolute;
+	visibility: hidden;
+	top: -50px;
+	left: 0px;
+	z-index: 5;
+	
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg) ;
+	}
+	
+	#hoverdivthree {  
+	cursor: pointer;
+	display: block;
+	width: auto;
+	height: 100px;
+	position: absolute;
+	
+	top: -50px;
+	left: 0px;
+	z-index: 5;
+	
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg) ;
+	} 
+
+ 
+  
+/**********************/
+
+
+
+/************Block 01************/
+.show,.st_main01,.st_main02,.st_main03,.st_main04,.st_main05,.st_main06 { 
+ float: left;
+ display: block;
+ width: auto;
+ height: auto;
+ margin-bottom: 0px;
+ }
+ 
+.st_main01 img.st_preview01,
+.st_main02 img.st_preview02,
+.st_main03 img.st_preview03,
+.st_main04 img.st_preview04,
+.st_main05 img.st_preview05,
+.st_main06 img.st_preview06{
+	position:absolute;
+	width: auto;
+	height: 525px;
+}
+
+
+.st_thumbs01 img,
+.st_thumbs02 img,
+.st_thumbs03 img,
+.st_thumbs04 img,
+.st_thumbs05 img,
+.st_thumbs06 img{
+    cursor:pointer;
+}
+.st_loading01,
+.st_loading02,
+.st_loading03,
+.st_loading04,
+.st_loading05,
+.st_loading06{
+	position: fixed;
+	top:300px;
+	left: 250px;
+	background: url(../images/loader.gif) no-repeat ;
+	background-position: right;
+
+	width: 150px;
+	height: 31px;
+}
+/*******Control menu********/
+	#left {  
+	float: left;
+	display: inline;
+	width: 20px;
+	height: 30px;
+	background-image: url('../images/arrow_03.png');
+  background-repeat: no-repeat;
+	background-position: bottom;
+	}
+	#left_active { 
+	float: left;
+	display: inline;
+	width: 20px;
+	height: 30px;
+	background-image: url('../images/arrow_03.png');
+  background-repeat: no-repeat;
+	background-position: top; 
+	}
+	
+	#right {  
+	float: left;
+	margin-left: 10px;
+	display: inline;
+	width: 20px;
+	height: 30px;
+	background-image: url('../images/arrow_left_03.png');
+  background-repeat: no-repeat;
+	background-position: top;
+	}

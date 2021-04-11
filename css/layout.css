@@ -1,0 +1,301 @@
+/*
+	layout css code
+	www.zwebplace.com
+*/
+
+/******************---HEAD SECTION----****************************/
+body {  
+overflow:hidden;
+margin: 0;
+padding: 0;
+}
+
+#main-header {  
+ display: block;
+ position: absolute;
+ width: 100%;
+ height: 100px;
+ background-image: url('../images/head_02.png');
+ background-repeat: repeat-x;
+ background-position: left;
+ z-index: 1;
+}
+#head {  
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: 100px;
+ margin: auto;
+ top: 30px;
+}
+#head_home {  
+ float: left;
+ position: relative;
+ display: block;
+ width: 100%;
+ height: 102px;
+ margin-top: 200px;
+}
+.mid {  
+display: block;
+width: 90px;
+height: 102px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/******************---CONTAINER SECTION----****************************/
+#main-container {  
+ display: block;
+ width: 100%;
+ height: 639px;
+ overflow: hidden;
+}
+#container {  
+ display: block;
+ width: 960px;
+ height: 639px;
+ margin: auto;
+  overflow: hidden;
+	
+}
+
+#content-left {  
+ 
+ display: block;
+ position: absolute;
+ width: 600px;
+ height: 500px;
+ 
+ top: -210px;
+ right: -210px;
+ z-index: 1;
+ transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+}
+#content-left div.control { 
+ display: block;
+ float: left;
+ width: 600px;
+ height: 30px;
+
+ margin-top: 465px;
+}
+
+#content-block,
+#content-block_re_03,#content-block_re_04,#content-block_re_07,#content-block_re_10,
+#content-block_01,
+#content-block_02,#content-block_03,#content-block_04,#content-block_05 {  
+ display: block;
+ position: absolute;
+ width: 300px;
+ height: 210px;
+ top: 20px;
+ right: 10px;
+ z-index: 2;
+}
+
+/**********THOMBO**********/
+#thombo-01,
+#thombo-re-01,#thombo-re_04-01,#thombo-re_07-01,#thombo-re_10-01,
+#thombo-re-02,#thombo-re_04-02,#thombo-re_07-02,#thombo-re_10-02,
+#thombo-re-03,#thombo-re_04-03,#thombo-re_07-03,#thombo-re_10-03,
+#thombo-re-04,#thombo-re_04-04,#thombo-re_07-04,#thombo-re_10-04,
+#thombo-02,
+#thombo-03,
+#thombo-04,#thombo-05,#thombo-06,#thombo-07, #thombo-08, #thombo-09, #thombo-10, #thombo-11, #thombo-12, #thombo-13, #thombo-14, #thombo-15, #thombo-16, #thombo-17, #thombo-18, #thombo-19, #thombo-20, #thombo-21, #thombo-22, #thombo-23, #thombo-24 { 
+ display: block;
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ border: 0px solid #cccccc;
+ background-color: #f5f5f5;
+ 
+ z-index: 10;
+ 
+ transform: rotate(35deg);
+	-ms-transform: rotate(70deg);
+	-webkit-transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	-moz-transform: rotate(-20deg);
+ }
+ /********Thombo a*********/
+ #thombo-01 a:active,
+#thombo-re-01 a,#thombo-re_04-01 a,
+#thombo-re-02 a,#thombo-re_04-02 a,
+#thombo-re-03 a,#thombo-re_04-03 a,
+#thombo-re-04 a,#thombo-re_04-04 a,
+#thombo-02 a:active,
+#thombo-03 a:active,
+#thombo-04 a:active,
+#thombo-05 a,
+#thombo-06 a,
+#thombo-07 a, 
+#thombo-08 a, 
+#thombo-09 a, 
+#thombo-10 a, 
+#thombo-11 a, 
+#thombo-12 a, 
+#thombo-13 a, 
+#thombo-14 a, 
+#thombo-15 a, 
+#thombo-16 a, 
+#thombo-17 a, 
+#thombo-18 a, 
+#thombo-19 a, 
+#thombo-20 a, 
+#thombo-21 a, 
+#thombo-22 a, 
+#thombo-23 a, 
+#thombo-24 a { 
+border: none;
+}
+ 
+#thombo-01,
+#thombo-re-01,#thombo-re_04-01,#thombo-re_07-01,#thombo-re_10-01,
+#thombo-05,
+#thombo-09,#thombo-13,#thombo-17,#thombo-21 {  
+ top: 320px;
+ right: 100px;
+}
+#thombo-02,
+#thombo-re-02,#thombo-re_04-02,#thombo-re_07-02,#thombo-re_10-02,
+#thombo-06,
+#thombo-10,#thombo-14,#thombo-18,#thombo-22 {  
+ top: 385px;
+ right: 130px;
+}
+#thombo-03,
+#thombo-re-03,#thombo-re_04-03,#thombo-re_07-03,#thombo-re_10-03,
+#thombo-07,
+#thombo-11,#thombo-15,#thombo-19,#thombo-23 {  
+ top: 354px;
+ right: 35px;
+}
+#thombo-04,
+#thombo-re-04,#thombo-re_04-04,#thombo-re_07-04,#thombo-re_10-04,
+#thombo-08,
+#thombo-12,#thombo-16,#thombo-20,#thombo-24 {  
+ top: 415px;
+ right: 65px;
+}
+
+.thombo:link,.thombo:visited ,.active {display: block;width: 50px; height: 50px; background-color: #ff9900; border: none;}
+.thombo:hover,.thombo:active {opacity:0.6; border: none; }
+/******************---CONTAINER SECTION----****************************/
+#main-nav {  
+ display: block;
+ width: 100%;
+ height: 100px;
+ overflow: hidden;
+ position: absolute;
+ top: 440px;
+ z-index: 1;
+}
+#main-nav_home { 
+ float: left; 
+ display: block;
+ width: 100%;
+ height: 300px;
+ margin-top: 50px;
+}
+.lefts {  
+ float: left;
+ display: inline;
+ width: 47%;
+ height: 256px;
+ background-image: url('../images/italian_line_07.png');
+ background-repeat: repeat-x;
+ background-position: right;
+ margin: 0;
+ padding: 0;
+  position: relative;
+}
+.rights {  
+  position: relative;
+ float: left;
+ display: inline;
+ width: 47%;
+ height: 256px;
+  background-image: url('../images/english_line_08.png');
+ background-repeat: repeat-x;
+ background-position: left;
+ margin: 0;
+ padding: 0;
+}
+.centers {  
+ float: left;
+ display: inline;
+ width: 6%;
+ height: 256px;
+ 
+ margin: 0;
+ padding: 0;
+}
+#navleft {  
+ float: left;
+ display: inline;
+ width: 40%;
+ height: 15px;
+ margin: 0;
+ margin-top: 85px;
+ background-color: #ff9900;
+ padding: 0;
+ border: none;
+ margin-right: 0px;
+}
+#navright {  
+ float: left;
+ display: inline;
+ width: 60%;
+ height: 15px;
+ margin: 0;
+ margin-left: 0px;
+ margin-top: 85px;
+ background-color: #3399cc;
+ padding: 0;
+ border: none;
+}
+/******************---FOOTER SECTION----****************************/
+#main-footer {  
+ display: block;
+ width: 100%;
+ height: 100px;
+ position: absolute;
+ top: 510px;
+}
+#footer {  
+ display: block;
+ width: 100%;
+ height: 100px;
+ margin: auto;
+
+}
+#footer div.left { 
+ float: left;
+ display: inline;
+ width: 10%;
+ height: 100px;
+ margin: 0;
+
+ }
+ #footer div.center { 
+ float: left;
+ display: inline;
+ width: 80%;
+ height: 100px;
+ margin: 0;
+
+ }
+ #footer div.right { 
+ float: left;
+ display: inline;
+ width: 10%;
+ height: 100px;
+ margin: 0;
+
+ }
+
