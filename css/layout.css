@@ -207,7 +207,6 @@ border: none;
  display: inline;
  width: 47%;
  height: 256px;
- background-image: url('../images/italian_line_07.png');
  background-repeat: repeat-x;
  background-position: right;
  margin: 0;
@@ -220,7 +219,6 @@ border: none;
  display: inline;
  width: 47%;
  height: 256px;
-  background-image: url('../images/english_line_08.png');
  background-repeat: repeat-x;
  background-position: left;
  margin: 0;
@@ -277,25 +275,28 @@ border: none;
 #footer div.left { 
  float: left;
  display: inline;
- width: 10%;
  height: 100px;
+/*** 
  margin: 0;
-
+ width: 10%;
+***/
  }
  #footer div.center { 
  float: left;
  display: inline;
- width: 80%;
  height: 100px;
+/***
  margin: 0;
-
+ width: 80%;
+***/
  }
  #footer div.right { 
  float: left;
  display: inline;
- width: 10%;
  height: 100px;
+/***
  margin: 0;
-
+ width: 10%;
+***/
  }
 
